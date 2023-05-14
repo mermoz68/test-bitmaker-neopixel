@@ -20,4 +20,9 @@ basic.forever(function () {
         base()
         basic.pause(20)
     }
+    for (let index = 0; index <= 4; index++) {
+        strip.shift(1)
+        base()
+        basic.pause(1000)
+    }
 })
